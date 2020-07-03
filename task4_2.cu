@@ -99,7 +99,6 @@ int main()
 	for (int i = 0; i < N; i++) {
 		for (int j = 0; j < M; j++) {
 			float elem = C.m[i * C.step + j];
-			printf("%f ", elem);
 			cout << elem << " ";
 		}
 		cout << endl;
